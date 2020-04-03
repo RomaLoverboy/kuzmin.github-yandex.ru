@@ -196,7 +196,7 @@ function getPlaces(result, result_form) {
 
                 if(ticketNumber[ticketNumber.length - 1] === 'E') {
                     priceExt = 3000;
-                } else if (str[str.length - 1] === 'B') {
+                } else if (ticketNumber[ticketNumber.length - 1] === 'B') {
                     priceExt = 5000;
                 }
                 $(this).css('background-color', '#0f0f0f');
