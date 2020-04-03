@@ -1,0 +1,134 @@
+.form-regist {
+    display: inline-grid;
+}
+
+.form-regist > input {
+    margin-bottom: 12px;
+}
+
+.booked {
+    pointer-events: none;
+    background-color: darkred;
+    cursor: none;
+}
+
+.not-used {
+    pointer-events: none;
+}
+
+.brand {
+    width: 150px;
+    margin-left: 120px;
+}
+
+.sld-ctm {
+    /*width: 1000px !important;*/
+    height: 600px;
+}
+
+.registration {
+    display: none;
+    margin-top: 20px;
+}
+
+.bt-reg {
+    width: 275px!important;
+    height: 50px;
+    font-size: 20px;
+}
+
+.signature {
+    margin-top: 25px;
+}
+.signature > span {
+    font-weight: bold;
+}
+
+.carousel-caption {
+    bottom: 100px!important;
+}
+
+.places {
+    margin-top: 25px;
+    margin-bottom: 120px;
+}
+
+.places td {
+    width: 39px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.city-list {
+    margin-left: -15px !important;
+}
+.city-list li {
+    list-style-type: none;
+}
+
+.city-list li a {
+    color: #000000;
+}
+
+.box-form {
+    display: flex;
+}
+
+.box-form input {
+    margin-right: 15px;
+}
+
+.find-places {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+#extra-find {
+    cursor: pointer;
+    text-decoration: solid;
+}
+
+.list-flight {
+    margin-top: 20px;
+}
+
+.list-flight-ext {
+    margin-top: -84px;
+}
+
+.list-flight-ext .plc-itm:hover {
+    background-color: #000000;
+}
+
+.list-flight .plc-itm:hover {
+    background-color: #000000;
+}
+
+.price {
+    position: relative;
+    width: 200px;
+}
+
+.pay-ticket {
+    position: absolute;
+    top: 30px;
+    left: 19px;
+    color: #adff2f;
+}
+
+#btn {
+    margin-top: 25px;
+}
+
+.temporarily {
+    background-color: #0f0f0f;
+}
+
+.temporarily-ext {
+    background-color: #0f0f0f;
+}
+
+.show-regist {
+    display: none;
+    margin-top: -180px;
+}
